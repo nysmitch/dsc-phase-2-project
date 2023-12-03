@@ -39,7 +39,13 @@ To begin the process I created a heatmap to determine a starting point on observ
 
 ![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/fcd930a6-a5a2-4b83-9be0-d23c30079273)
 
-This 
+This showed the highest correlation with price being sqft_living with a smaller correlation with bathrooms and bedrooms.
+![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/c4f6069d-e19f-4454-82ea-2f1410ae1c53)
+
+After creating a regression model for the mean square footage of a zipcode and the price the following statistices were produced:
+<img width="638" alt="image" src="https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/0f0d5aed-c45c-4f39-8d7e-2b2d4ea5a0d3">
+
+
 
 ## Deliverables
 
