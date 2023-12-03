@@ -43,7 +43,26 @@ This showed the highest correlation with price being sqft_living with a smaller 
 ![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/c4f6069d-e19f-4454-82ea-2f1410ae1c53)
 
 After creating a regression model for the mean square footage of a zipcode and the price the following statistices were produced:
+
+
 <img width="638" alt="image" src="https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/0f0d5aed-c45c-4f39-8d7e-2b2d4ea5a0d3">
+
+
+From this we can see that average square footage explains 59% of the variance in sales. 
+This creates the following model of the regression:
+
+![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/e8f5a8e1-3ea4-4dff-8c63-0a1879b2387a)
+
+
+
+
+Following this I attempted to creae an SKLEARN predictive model which became severly affected by outliers.
+![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/b36ea655-480f-4e24-966d-4b5095f81759)
+
+
+
+
+These were removed from the data and model retested. This improved the RMSE of the model overall but not enough. I then tried scaling the 
 
 
 
