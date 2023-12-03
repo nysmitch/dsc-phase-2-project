@@ -62,7 +62,12 @@ Following this I attempted to creae an SKLEARN predictive model which became sev
 
 
 
-These were removed from the data and model retested. This improved the RMSE of the model overall but not enough. I then tried scaling the 
+These were removed from the data and model retested. This improved the RMSE of the model overall but not enough. 
 
+![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/964d1144-b3f0-4d3f-9870-18f253517c9e)
 
+I then applied scaling to the model to improve the model but still received similar RMSE results of 240 000
+
+### Conclusions
+From my first model I can conclude that the feature of a house that affects the price the most is the sqft_living area. This is followed by bathrooms and bedrooms, the number of which logically increases with the size of a houze.
 
