@@ -1,37 +1,45 @@
-# Phase 2 Project
+### Business Understanding
 
-Another module down--you're almost half way there!
+The business I will be looking at creating a linear regression model for is King Real Estate. They are looking at purchasing some properties in the King's county area and a re looking for some direction and predictions at what the house prices will be depedning on certain features.
 
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-phase-2-project-campus/master/halfway-there.gif)
+## Data Understanding
 
-All that remains in Phase 2 is to put our newfound data science skills to use with a large project! This project should take 20 to 30 hours to complete.
+The dataset I will be using is the Kings County House sales dataset. 
 
-## Project Overview
+This includes the following information for over 2000 properties:
+ - ID
+ - price
+ - bedrooms
+ - bathrooms
+ - sqft_living
+ - sqft_lot
+ - floors
+ - waterfront
+ - view
+ - condition
+ - grade
+ - sqft_above
+ - sqft_basement
+ - yr_built
+ - yr_renovated
+ - zipcode
+ - latitutde
+ - longitude
+ - sqft_living15
+ - sqft_lot15
 
-For this project, you will use regression modeling to analyze house sales in a northwestern county.
+Using this data I will advise King Real estate as to what features will affect the price of a house.
 
-### The Data
+## Data Preparation
+In preparation for modeling I have decided to drop some of the data to limit the dataset to what information I will be using. transformed the data to the Dtype i would require for certain models.
 
-This project uses the King County House Sales dataset, which can be found in  `kc_house_data.csv` in the data folder in this repo. The description of the column names can be found in `column_names.md` in the same folder. As with most real world data sets, the column names are not perfectly described, so you'll have to do some research or use your best judgment if you have questions about what the data means.
+## Modeling
 
-It is up to you to decide what data from this dataset to use and how to use it. If you are feeling overwhelmed or behind, we recommend you ignore some or all of the following features:
+To begin the process I created a heatmap to determine a starting point on observing what house characteristics had high correlation with price.
 
-* date
-* view
-* sqft_above
-* sqft_basement
-* yr_renovated
-* zipcode
-* lat
-* long
-* sqft_living15
-* sqft_lot15
+![download](https://github.com/nysmitch/dsc-phase-2-project/assets/147038854/fcd930a6-a5a2-4b83-9be0-d23c30079273)
 
-### Business Problem
-
-It is up to you to define a stakeholder and business problem appropriate to this dataset.
-
-If you are struggling to define a stakeholder, we recommend you complete a project for a real estate agency that helps homeowners buy and/or sell homes. A business problem you could focus on for this stakeholder is the need to provide advice to homeowners about how home renovations might increase the estimated value of their homes, and by what amount.
+This 
 
 ## Deliverables
 
